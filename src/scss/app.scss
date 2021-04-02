@@ -1,0 +1,10 @@
+@import './base/theme', './base/normalize';
+// Pages
+@import './pages/authPage';
+// Components
+@import './components/button', './components/form', './components/field';
+.App {
+  width: inherit;
+  height: inherit;
+  background: inherit;
+}
