@@ -1,7 +1,21 @@
 [data-theme='ligth'] {
   --color-bg: hsl(0, 0%, 98%);
   --color-font: hsla(0, 0%, 0%, 0.78);
+  --color-font-subtitle: hsl(0, 0%, 83%);
   --color-link: hsla(227, 58%, 14%, 0.7);
-  --color-link-hover: hsl(227, 57%, 14%);
-  --color-border-field: hsla(0, 93%, 48%, 0);
+  --color-link-hover: hsl(176, 54%, 59%);
+  --color-border-field: hsla(0, 0%, 0%, 0.336);
+  --color-border-field-hover: hsl(176, 54%, 67%);
+  --color-border-field-error: hsl(0, 85%, 56%);
+  --color-button: hsl(176, 54%, 67%);
+  --color-button-active: hsl(176, 54%, 59%);
+  --color-button-hover: hsl(176, 43%, 52%);
+  --color-button-warning: hsl(347, 71%, 51%);
+  --color-button-warning-active: hsl(176, 54%, 59%);
+  --color-button-warning-hover: hsla(0, 100%, 52%, 0.774);
+  --color-navigation-bg: rgb(51, 51, 51);
+  --color-navigation-item: hsl(176, 54%, 67%);
+  --color-navigation-item-hover: hsl(176, 43%, 52%);
+  --color-shadow-one: hsl(240, 4%, 83%);
+  --color-shadow-two: hsl(0, 0%, 100%);
 }

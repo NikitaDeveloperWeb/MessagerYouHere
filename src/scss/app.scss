@@ -1,8 +1,10 @@
 @import './base/theme', './base/normalize';
 // Pages
-@import './pages/authPage';
+@import './pages/authPage', './pages/home';
 // Components
-@import './components/button', './components/form', './components/field';
+@import './components/button', './components/form', './components/field', './components/avatar',
+  './components/navigation', './components/profile', './components/peopleSearch',
+  './components/setting', './components/option';
 .App {
   width: inherit;
   height: inherit;

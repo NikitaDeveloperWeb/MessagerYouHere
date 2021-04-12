@@ -12,6 +12,10 @@
   letter-spacing: 3px;
   font-family: 'Saira', sans-serif;
 }
+::selection {
+  background: var(--color-button);
+  opacity: 0.5;
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -24,6 +28,7 @@ body {
 a {
   text-decoration: none;
   color: var(--color-link);
+  transition: 0.5s;
   &:hover {
     color: var(--color-link-hover);
   }

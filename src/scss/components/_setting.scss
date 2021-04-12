@@ -1,0 +1,32 @@
+.Setting {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 20px 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    width: 80%;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    border-bottom: 1px solid var(--color-font);
+  }
+}
+.feedback-textarea {
+  border: 1px solid var(--color-border-field);
+  border-radius: 10px;
+  transition: 0.7;
+  padding: 5px;
+  height: 250px;
+  &:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid var(--color-border-field-hover);
+    transition: 0.7;
+  }
+  &::placeholder {
+    font-size: 0;
+  }
+}

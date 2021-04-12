@@ -1,0 +1,26 @@
+.Form-auth {
+  h2 {
+    text-align: center;
+    font-weight: 300;
+    color: var(--color-font-subtitle);
+  }
+  p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Field-primory,
+  .Field-primory__focus,
+  .Field-primory__error {
+    margin-top: 10px;
+  }
+  button {
+    margin-top: 10px;
+  }
+  width: auto;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

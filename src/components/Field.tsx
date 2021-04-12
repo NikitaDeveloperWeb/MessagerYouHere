@@ -40,7 +40,7 @@ function Field({
     }
   };
   React.useEffect(() => {
-    document.querySelector('.form')?.addEventListener('click', handleOutsideClick);
+    document.body.addEventListener('click', handleOutsideClick);
   });
 
   return (

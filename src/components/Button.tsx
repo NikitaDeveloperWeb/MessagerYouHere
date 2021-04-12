@@ -4,7 +4,7 @@ interface ButtonProps {
   value: string | undefined;
   type: 'button' | 'submit' | 'reset' | undefined;
   form?: string;
-  className?: 'Button-primary' | 'Button-outline';
+  className?: 'Button-primary' | 'Button-outline' | 'Button-warning';
 }
 
 const Button = ({ value, type, form, className }: ButtonProps) => {

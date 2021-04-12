@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "username": "rusak",
+      "firstname": "Nikita",
+      "lastname": "Rusakov",
+      "mail": "rusakdeveloper@gmail.com",
+      "phone": "89518054459",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "username": "rusak2",
+      "firstname": "Nikita2",
+      "lastname": "Rusakov2",
+      "mail": "rusakdeveloper2@gmail.com",
+      "phone": "89518054452",
+      "password": "1234567"
+    }
+  ]
+}
