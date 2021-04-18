@@ -14,7 +14,7 @@ function FormPasswordEditor() {
         type="password"
         name="Password"
         className="Field-primory"
-        placeholder="Password"
+        placeholder="New password"
         form="form-password-editor"
         icon={<VpnKeyIcon />}
       />
@@ -22,7 +22,7 @@ function FormPasswordEditor() {
         type="password"
         name="Password_reapeat"
         className="Field-primory"
-        placeholder="Repeat password"
+        placeholder="Repeat new password"
         form="form-password-editor"
         icon={<VpnKeyIcon />}
       />

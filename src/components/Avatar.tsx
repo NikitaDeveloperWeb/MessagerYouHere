@@ -7,7 +7,7 @@ interface AvatarProps {
     avatar: string;
     firstname: string;
   };
-  classname: 'avatar-sm' | 'avatar-md' | 'avatar-hg';
+  classname: 'avatar-mini' | 'avatar-sm' | 'avatar-md' | 'avatar-hg';
 }
 
 function Avatar({ user, classname }: AvatarProps) {

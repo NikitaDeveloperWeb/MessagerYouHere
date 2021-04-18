@@ -4,7 +4,8 @@
 // Components
 @import './components/button', './components/form', './components/field', './components/avatar',
   './components/navigation', './components/profile', './components/peopleSearch',
-  './components/setting', './components/option';
+  './components/setting', './components/option', './components/messages',
+  './components/dialogPreview';
 .App {
   width: inherit;
   height: inherit;
